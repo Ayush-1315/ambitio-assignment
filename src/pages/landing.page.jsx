@@ -9,7 +9,7 @@ const LandingPage = () => {
   return (
     <div className="flex flex-col items-center">
       <div
-        className="relative w-full h-[35vh] sm:h-[50vh] lg:m-auto  bg-no-repeat bg-center  bg-[length:250%] sm:bg-[length:180%] md:bg[length:180%] lg:bg-contain mb-5"
+        className="relative w-full h-[35vh] sm:h-[50vh] lg:m-auto bg-no-repeat bg-center bg-[length:250%] sm:bg-[length:180%] md:bg[length:180%] lg:bg-contain mb-5 animate-spin-slow carousel"
         style={{
           backgroundImage: `url(${image})`,
         }}
@@ -23,10 +23,10 @@ const LandingPage = () => {
         <img
           src={crown}
           alt="crown"
-          className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[160px] md:w-[200px] lg:w-[240px]"
+          className="tw-animate-shake absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[160px] md:w-[200px] lg:w-[240px] hovering-image"
         />
       </div>
-
+      <div className="motion-translate-x-in-[0%] motion-translate-y-in-[-17%] motion-infinite"></div>
       <div className="p-2 flex flex-col gap-5 justify-center items-center">
         <h1 className="font-clash text-3xl lg:text-3xl font-semibold text-center">
           <span className="block sm:inline">Give the best</span>{" "}
@@ -62,7 +62,7 @@ const LandingPage = () => {
           </p>
         </div>
         <div className="flex flex-col items-center gap-5 sm:flex-row justify-center sm:items-start p-10 xl:gap-15">
-          <div>
+          <div className="hover:scale-[1.05] transition-all duration-400">
             <p className="text-center font-space-grotesk font-bold text-4xl text-[#B1060F] mb-2 md:text-5xl lg:text-6xl">
               4.96
             </p>
@@ -70,7 +70,7 @@ const LandingPage = () => {
               Google Rating
             </p>
           </div>
-          <div>
+          <div className="hover:scale-[1.05] transition-all duration-400">
             <p className="text-center font-space-grotesk font-bold text-4xl text-[#B1060F] mb-2 md:text-5xl lg:text-6xl">
               98.2%
             </p>
@@ -78,7 +78,7 @@ const LandingPage = () => {
               got into their Target Program
             </p>
           </div>
-          <div>
+          <div className="hover:scale-[1.05] transition-all duration-400">
             <p className="text-center font-space-grotesk font-bold text-4xl text-[#B1060F] mb-2 md:text-5xl lg:text-6xl">
               30,000+
             </p>

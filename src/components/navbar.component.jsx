@@ -73,16 +73,12 @@ const Navbar = () => {
         </span>
       </div>
       <div
-        className={`flex flex-col xl:hidden gap-[1rem] absolute right-0 top-[5rem] p-5 bg-white shadow-lg z-50 
-    transition-all duration-100 
-    ${
-      showDropdown
-        ? "opacity-100 visible animate-wave-in"
-        : "opacity-0 invisible animate-wave-out"
-    }`}
+        className={`dropdown-menu ${
+          showDropdown ? "show" : "hide"
+        } flex flex-col xl:hidden gap-[1rem]`}
       >
         <span className="font-space-grotesk cursor-pointer text-right">
-          Study-abroad{" "}
+          Study-abroad
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -99,7 +95,7 @@ const Navbar = () => {
           </svg>
         </span>
         <span className="font-space-grotesk cursor-pointer text-right">
-          Bootcamps{" "}
+          Bootcamps
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -116,7 +112,7 @@ const Navbar = () => {
           </svg>
         </span>
         <span className="font-space-grotesk cursor-pointer text-right">
-          Products{" "}
+          Products
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -134,16 +130,19 @@ const Navbar = () => {
         </span>
         <span className="flex font-space-grotesk cursor-pointer items-center gap-2 text-right">
           <img src={diamond} alt="ambitio-pro" className="inline-block" />
-          Ambitio Pro{" "}
+          Ambitio Pro
         </span>
-        <span className=" flex font-space-grotesk cursor-pointer items-center gap-2 text-right">
+        <span className="flex font-space-grotesk cursor-pointer items-center gap-2 text-right">
           <img src={crown} alt="ambitio-elite" className="inline-block" />
-          Ambitio Elite{" "}
+          Ambitio Elite
         </span>
       </div>
 
       <div className="flex gap-3">
-        <button className="flex border-2 border-[#B1060F] rounded-lg text-[#B1060F] py-1 px-3 hover:bg-[#B1060F] hover:text-white cursor-pointer  item-center gap-1 justify-center ">
+        <button
+          className="flex border-2 border-[#B1060F] rounded-lg text-[#B1060F] py-1 px-3 hover:bg-[#B1060F] hover:text-white cursor-pointer  item-center gap-1 justify-center transition-all duration-500
+"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
