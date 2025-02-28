@@ -9,7 +9,7 @@ const LandingPage = () => {
   return (
     <div className="flex flex-col items-center">
       <div
-        className="relative w-full h-[50vh] sm:h-[50vh] lg:m-auto  bg-no-repeat bg-center  bg-[length:250%] sm:bg-[length:180%] md:bg[length:180%] lg:bg-contain mb-5"
+        className="relative w-full h-[35vh] sm:h-[50vh] lg:m-auto  bg-no-repeat bg-center  bg-[length:250%] sm:bg-[length:180%] md:bg[length:180%] lg:bg-contain mb-5"
         style={{
           backgroundImage: `url(${image})`,
         }}

@@ -1,12 +1,63 @@
-# React + Vite
+# Hero Section - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a hero section for a landing page, developed as part of a Frontend Developer Intern assignment. The goal was to accurately translate a Figma design into code while ensuring pixel-perfect implementation, responsiveness, and creative animations/interactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
 
-## Expanding the ESLint configuration
+- **React.js+Vite** - For component-based UI development.
+- **Tailwind CSS** - For efficient and responsive styling..
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- **Pixel-Perfect Design**: The hero section closely matches the Figma design in layout, typography, colors, and spacing.
+- **Smooth Animations**: Interactive elements enhance user experience while maintaining a professional look.
+- **Fully Responsive**: Optimized for desktop, tablet, and mobile views.
+
+## Installation & Setup
+
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd hero-section
+   ```
+3. Install dependencies:
+   ```sh
+   npm install  # or yarn install
+   ```
+4. Run the development server:
+   ```sh
+   npm run dev  # or yarn dev
+   ```
+5. Open the browser and visit:
+   ```
+   http://localhost:5174
+   ```
+
+## Approach
+
+1. **Design Implementation**: Recreated the design with a focus on pixel-perfect accuracy.
+2. **Animations & Interactions**: Used CSS animations and Framer Motion to add smooth transitions.
+3. **Responsiveness**: Ensured a seamless experience across different screen sizes using Tailwind's responsive utilities.
+
+## Screenshots
+
+### Mobile View
+
+![Mobile View](screenshots/mobile-view.png)
+
+### Desktop View
+
+![Desktop View](screenshots/desktop-view.png)
+
+## Author
+
+- **Ayush Raj** - Frontend Developer
+
+## License
+
+This project is for evaluation purposes only and follows standard fair-use practices.
