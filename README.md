@@ -19,7 +19,7 @@ This project is a hero section for a landing page, developed as part of a Fronte
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/Ayush-1315/ambitio-assignment.git
    ```
 2. Navigate to the project folder:
    ```sh
